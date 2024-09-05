@@ -1,0 +1,11 @@
+.Custom {
+    border-width: 5px;
+    border-style: groove;
+    border-color: gray;
+    background-color: dimgray;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
