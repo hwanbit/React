@@ -9,7 +9,7 @@ function Accommodate(props) {
 
     useEffect(() => {
         console.log("======================");
-        console.log("useEffect() is called.");
+        console.log("useEffect 실행됨");
         console.log(`isFull: ${isFull}`);
     });
 
