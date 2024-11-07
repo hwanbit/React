@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-// bind 대신에 클래스 필드 문법으로 코드 변경
+// bind 대신에 함수 컴포넌트로 코드 변경
 function ConfirmButton3(props) {
     const[isConfirmed, setIsConfirmed] = useState(false);
 

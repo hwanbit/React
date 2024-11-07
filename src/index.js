@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Library from "./ch03/Library";
+import ConfirmDialog from "./ch04/ConfirmDialog"
 import Clock from "./ch04/Clock";
 import CommentList from "./ch05/CommentList";
 import NotificationList from "./ch06/NotificationList";
@@ -13,20 +14,21 @@ import Toggle from "./ch08/Toggle";
 import MyButton from "./ch08/MyButton";
 import Toggle2 from "./ch08/Toggle2";
 import Toggle3 from "./ch08/Toggle3";
-import clickButton from "./ch08/ClickButton";
 import ClickButton from "./ch08/ClickButton";
 import Counter from "./ch08/Counter";
 import InputTest from "./ch08/InputTest";
 import ConfirmButton from "./ch08/ConfirmButton";
 import ConfirmButton2 from "./ch08/ConfirmButton2";
 import ConfirmButton3 from "./ch08/ConfirmButton3";
+import Greeting from "./ch09/Greeting";
+import LoginControl from "./ch09/LoginControl";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(
     ()=>{
         root.render(
             <React.StrictMode>
-                <ConfirmButton3 />
+                <LoginControl/>
             </React.StrictMode>
         );
     }
