@@ -22,13 +22,17 @@ import ConfirmButton2 from "./ch08/ConfirmButton2";
 import ConfirmButton3 from "./ch08/ConfirmButton3";
 import Greeting from "./ch09/Greeting";
 import LoginControl from "./ch09/LoginControl";
+import Mailbox from "./ch09/Mailbox";
+import LoginControl2 from "./ch09/LoginControl2";
+import LandingPage from "./ch09/LandingPage";
+// import Greeting from "./test/Greeting" (하나로 묶기)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(
     ()=>{
         root.render(
             <React.StrictMode>
-                <LoginControl/>
+                <LandingPage/>
             </React.StrictMode>
         );
     }
