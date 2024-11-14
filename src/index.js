@@ -28,17 +28,19 @@ import LandingPage from "./ch09/LandingPage";
 // import Greeting from "./test/Greeting" (하나로 묶기)
 import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
+import AppStudentAttendance from "./ch10/AppStudentAttendance";
+import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(
     ()=>{
         root.render(
             <React.StrictMode>
-                <StudentAttendance/>
+                <AttendanceCard/>
             </React.StrictMode>
         );
     }
-    ,1000
+    // ,1000
 )
 
 // If you want to start measuring performance in your app, pass a function
