@@ -26,13 +26,15 @@ import Mailbox from "./ch09/Mailbox";
 import LoginControl2 from "./ch09/LoginControl2";
 import LandingPage from "./ch09/LandingPage";
 // import Greeting from "./test/Greeting" (하나로 묶기)
+import AppNumberList from "./ch10/AppNumberList";
+import StudentAttendance from "./ch10/StudentAttendance";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(
     ()=>{
         root.render(
             <React.StrictMode>
-                <LandingPage/>
+                <StudentAttendance/>
             </React.StrictMode>
         );
     }
