@@ -38,13 +38,17 @@ import Calculator from "./ch12/Calculator";
 import Calculator2 from "./ch12/Calculator2";
 import Calculator3 from "./ch12/Calculator3";
 import DistanceConverter from "./ch12/DistanceConverter";
+import ProfileCard from "./ch13/ProfileCard";
+import MainPage from "./ch13/card/MainPage";
+import AirApp from "./ch13/airbnb/AirApp";
+import Strawberry from "./strawberry/Strawberry";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(
     ()=>{
         root.render(
             <React.StrictMode>
-                <DistanceConverter/>
+                <Strawberry/>
             </React.StrictMode>
         );
     }
