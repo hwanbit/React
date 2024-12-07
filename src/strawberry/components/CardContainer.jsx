@@ -197,7 +197,7 @@ const CardContainer = () => {
 
     return (
         <div>
-            <h1 className="contentTitle">겨울 맞이 딸기 디저트 소개</h1>
+            <h1 className="contentTitle">"겨울 맞이 딸기 레시피 소개"</h1>
             <div className="desserts">
                 {desserts.map((dessert) => (
                     <DessertCard
